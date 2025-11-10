@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <style>
+            form {
+                
+                padding: 25px;
+                margin: 20px;
+            }
+            fieldset {
+               border: 1px solid green;
+               margin: 3px;
+               padding: 5px;
+            }
+            legend {
+                color: red;
+                margin: 6px;
+                padding: 8px;
+                margin: auto;
+            }
+            input[type=text] {
+                border-radius: 6px;
+            }
+            input[type=email] {
+                border-radius: 8px;
+            }
+            input[type=tel] {
+                border-radius: 8px;
+            }
+            input[type=submit] {
+                color: black;
+                background-color: white;
+            }
+            input[type=reset] {
+                color: black;
+                backgorund-color: white;
+            }
+            
+            input[id="fname"] {
+
+                padding: 3px;
+                background-color: pink;
+                border: 3px solid green;
+            }
+
+        </style>
+    </head>
+    <body>
+        <form>
+                <fieldset style="border:1px solid blue">
+                    <legend style="border:2px solid green">Telebe qeydiyyati</legend>
+             
+            
+                
+                    <fieldset>
+                        <legend>Sexsi melumat</legend>
+                        <label for="name">Muraciet eden</label>
+                        <input type="radio" id="name" name="name">
+                        <label for="name">Bakalavr</label>
+                        <input type="radio" id="name" name="name">
+                        <label for="name">Magistr</label><br><br>
+                        <label for="name">Adi:</label>
+                        <input type="text" id="name" name="name"><br><br>
+                        <label for="fname">Soyadi:</label>
+                        <input type="text" id="fname" name="fname"><br><br>
+                        <label for="name">Ata adi:</label>
+                        <input type="text" id="name" name="name"><br><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Elaqe melumati</legend>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"><br><br>
+                        <label for="mobil"> Mobil Telefon:</label>
+                        <input type="tel" id="mobil" name="mobil" placeholder="0000000000"><br><br>
+                        <label for="phone">Telefon:</label>
+                        <input type="tel" id="phone" name="phone"><br><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Diger melumatlar</legend>
+                        <label for="ixtisas">Ixtisas</label>
+                        <select id="ixtisas" name="ixtisas">
+                            <option value="Komputer elmleri">Komputer elmleri</option>
+                            <option value="Komputer Muhendisliyi">Komputer muhendisliyi</option>
+                            <option value="Informasiya texnologiyalari">Informasiya texnologiyalari</option>
+                        </select><br><br>
+                        <label for="sekil">Sekil yukle</label>
+                        <input type="file" id="sekil" name="sekil"><br><br>
+                        <label for="erize">Erize elave et</label>
+                        <input type="file" id="erize" name="erize"><br><br>
+                    </fieldset>
+                    <label for="qeydiyyat">Qeydiyyat tarixi:</label>
+                    <input type="date" id="qeydiyyat" name="qeydiyyat"><br><br>
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Men istifade sertleri ile raziyam</label><br><br>
+                    <label for="parol">Parolu</label>
+                    <input type="parol" id="parol" name="parol">
+                    <label for="pasw">Parolu yeniden daxil edin</label>
+                    <input type="parol" id="pasw" name="pasw"><br><br>
+                    <input type="submit" value="Qeydiyyatdan kecin">
+                    <input type="reset" value="Sifirla">
+                </fieldset>
+
+
+                
+            
+        </form>
+    </body>
+</html>
